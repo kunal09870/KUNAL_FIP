@@ -1,0 +1,313 @@
+* {margin:0;padding:0}
+
+body {background:url(images/tail-cont.gif) repeat center top #f2c142;font-family:Tahoma, Arial, helvetica, sans-serif;font-size:100%;line-height:1em;color:#000;min-width:1000px}
+input, textarea, select {font-family:Tahoma, Arial, helvetica, sans-serif;font-size:1em}
+input, select {vertical-align:middle;font-weight:normal}
+img {border:0;vertical-align:top;text-align:left}
+object {vertical-align:top;outline:none}
+/* global */
+#header, #content, #footer {font-size:0.75em}
+.wrapper {width:100%;overflow:hidden}
+.container {width:1450px;margin:0 auto;position:relative}
+.col-1, .col-2, .col-3 {float:left}
+.fleft {float:left}
+.fright {float:right}
+.clear {clear:both}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+p {margin:0;padding:0}
+.tail-top {background:url(images/tail-top.gif) center top repeat-x}
+.tail-top-left {height:161px;position:absolute;left:0;top:0;width:50%;background:url(images/tail-top-left.gif) repeat-x left top}
+.tail-bottom {background:url(images/tail-bottom.png) left bottom repeat-x}
+/* forms */
+#contacts-form {clear:right;width:100%;overflow:hidden;padding:15px 0 0 0}
+#contacts-form fieldset {border:none;float:left;}
+#contacts-form .field {clear:both}
+#contacts-form label {float:left;width:97px;line-height:18px;padding-bottom:8px;font-weight:bold;color:#9f5827}
+#contacts-form input {width:227px;padding:1px 0 1px 3px;background:#fff;border-right:1px solid #db5100;border-left:0;border-top:0;border-bottom:1px solid #db5100;color:#70635b;float:left}
+#contacts-form textarea {width:518px;height:252px;padding:1px 0 1px 3px;background:#fff;border-left:0;border-top:0;border-right:1px solid #db5100;border-bottom:1px solid #db5100;color:#70635b;margin-bottom:15px;overflow:auto;float:left}
+/* list */
+ul {list-style:none}
+.nav {position:absolute;right:55px;top:56px}
+.nav li {float:left;padding-right:24px;margin-right:24px;background:url(images/divider.gif) repeat-y right top;height:11px}
+.nav li.last {background:none;padding-right:0;margin-right:0}
+.site-nav {position:absolute;left:0;top:128px;z-index:2}
+.site-nav li {float:left;text-transform:uppercase;font-size:1.17em;background:url(images/divider1.gif) repeat-y right top;line-height:1.08em}
+.site-nav li a {color:#515151;text-decoration:none;display:block;width:200px;padding:4px 0 3px 0;text-align:center}
+.site-nav li a:hover,
+.site-nav li a.act {color:#a24f00}
+.site-nav li.last {background:none}
+.list {margin-top:-17px}
+.list li {width:100%;overflow:hidden;vertical-align:top;padding-top:17px}
+.list li b {display:block;margin-bottom:4px}
+.list li img {float:left;margin-right:15px}
+.list1 {padding-bottom:15px;margin:0;font-weight:bold}
+.list1 li {padding:0 0 6px 8px;background:url(images/marker.gif) no-repeat left 6px}
+.list1 li ul {padding:8px 0 0 12px;margin-bottom:-4px}
+/* other */
+.img-box1 {width:100%;overflow:hidden;padding-bottom:12px}
+.img-box1 img {float:left;margin:0 20px 0 0}
+.p1 {margin-bottom:20px}
+/* txt, links, lines, titles */
+a {color:#c9710c;outline:none}
+a:hover{text-decoration:none}
+h2, h3 {color:#c9710c;line-height:1.2em;margin-bottom:20px}
+h2 {font-size:36px}
+h3 {font-size:25px}
+.link {text-align:right;font-weight:bold}
+/*header*/
+#header {background:url(images/header-bg.jpg) no-repeat left top;height:161px}
+#header .logo {position:absolute;left:18px;top:3px}
+
+ul.nav img {
+    width: 20px;
+}
+/* Products */
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-image img {
+    width: 330px;
+}  
+  .product-card {
+    padding: 2%;
+    flex-grow: 1;
+  }
+  .product-info {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+
+  }
+  .product-image {
+    text-align: center;
+}
+.more_pro {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.more_pro a {
+    background: #c9710c;
+    padding: 20px 42px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+/*content*/
+#content {background:url(images/cont-bg.jpg) no-repeat left top;min-height:561px;height:auto!important;height:561px}
+#content .indent {padding:50px 50px 50px 329px}
+#content .inner_copy {border:0;color:#fff;float:right;width:0.09%!important;margin:-100px;overflow:hidden;line-height:0px;padding:0px;font-size:11px}
+#content .indent1 {padding-bottom:37px}
+
+/* Get in touch */
+div#get_tch, .cntr_sec {
+    display: flex;
+}
+.lft_img {
+    width: 50%;
+}
+.indent-rgt {
+    width: 50%;
+}
+
+.thrd_sec {
+    padding-top: 150px;
+}
+/*footer*//* The footer is fixed to the bottom of the page */
+
+.footer-left {
+    padding-left: 15px;
+}
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+.logo img {
+    width: 22%;
+}
+.footer-distributed{
+
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px  0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 28%;
+}
+
+.footer-distributed h3{
+	color:  #000;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 60%;
+}
+
+.footer-distributed h3 span{
+	color:  #000;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #000;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #000;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+footer.footer-distributed h4 {
+    padding-bottom: 40px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: #c9710c;
+
+}
+.footer-distributed .footer-center{
+	width: 36%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #fff;
+	color: #000;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #000;
+	vertical-align: middle;
+	margin:0;
+    font-weight: normal;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #000;
+	text-decoration: none;;
+}
+.footer-center h4 {
+    padding-left: 24px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+    padding-left: 40px;
+}
+.footer-right p {
+    line-height: 1.5;
+    font-weight: normal;
+}
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #000;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #000;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #fff;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
